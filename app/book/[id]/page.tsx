@@ -129,7 +129,7 @@ const DetailBook = ({ params }: { params: { id: string } }) => {
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <Image
           className="w-full h-80 object-cover object-center"
-          src={book.thumbnail}
+          src={book.image.url}
           alt={book.title}
           width={700}
           height={700}

@@ -50,7 +50,7 @@ const Book = ({ book, isPurchased }: BookProps) => {
           <div className="relative w-96 h-64">
             <Image
               priority
-              src={book.thumbnail}
+              src={book.image.url}
               alt={book.title}
               layout="fill"
               objectFit="cover"

@@ -31,7 +31,7 @@ export default async function ProfilePage() {
         <div className="flex items-center">
           <Image
             priority
-            src={user?.image || "/default_icon.png"}
+            src="/default_icon.png"
             alt="user profile_icon"
             width={60}
             height={60}
